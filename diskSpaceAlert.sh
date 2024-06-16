@@ -18,7 +18,7 @@ check_disk_space() {
 
 hostname=$(hostname)
 subject="Disk Space Alert from: $hostname"
-receiver="mastengkorak@gmail.com"
+receiver="receiever-of-your-preference@some-mail.com"
 body="Disk space is critically low. Please take necessary action."
 
 send_mail(){
